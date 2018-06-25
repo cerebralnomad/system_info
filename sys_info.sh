@@ -62,10 +62,13 @@ echo "Enter the number of the command you would like to run:
 13).(S)..dmidecode -t processor - display detailed processor/CPU information
 14).(S)..dmidecode -t memory - display detailed memory information
 15).(S)..dmidecode -t bios - display detailed information about the BIOS
-e) (S) export static details of system to file saved at ~/Desktop/system_details.txt
-   File will include choices 4, 5, 6, 7, 8, 9, 10, 13, 14, 15
-x) export current state of system to file saved at ~/Desktop/system_state.txt
-   File will include choices 1 and 12 
+
+e)..(S)..export static details of system to file saved at ~/Desktop/system_details.txt
+         File will include choices 4, 5, 6, 7, 8, 9, 10, 13, 14, 15
+
+x).......export current state of system to file saved at ~/Desktop/system_state.txt
+         File will include choices 1 and 12 
+
 q) quit"
 echo ""
 
