@@ -1,5 +1,6 @@
-The system_info.sh is a shell script that brings access to a number of system information utilities together
-in one location. 
+
+The system_info.sh is a shell script that brings access to a number of system 
+information utilities together in one location. 
 
 
 Most of the utilities are available by default on Ubuntu and most other distros, but a few are not.
@@ -17,4 +18,6 @@ apt install lsscsi
 
 The lshw and dmidecode utilities require sudo priviledges so if those are desired then run the script 
 with sudo.
+
+It's best to run this script with the terminal maximized.
 
